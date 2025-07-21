@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import Card from "./Card.vue";
 import aliceImage from "./../assets/images/alice.webp";
+import chateauImage from "./../assets/images/chateau.jpg";
 import celebreImage from "./../assets/images/celebre.jpg";
 import chambreImage from "./../assets/images/chambre.webp";
-import chateauImage from "./../assets/images/chateau.jpg";
 import einsteinImage from "./../assets/images/einstein.jpg";
 import merveillesImage from "./../assets/images/merveilles.jpg";
 </script>

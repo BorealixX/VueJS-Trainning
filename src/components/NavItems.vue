@@ -4,10 +4,12 @@
       <li
         v-for="item in items"
         :key="item.id"
-        :class="['flex p-2.5 text-sm', item.class]"
+        :class="['flex p-2.5 text-sm cursor-pointer', item.class]"
       >
         <div>
-          <h4 :class="['font-bold', { 'text-xl': isPara }]">{{ item.name }}</h4>
+          <h4 :class="['font-bold', { 'text-xl': isPara }]">
+            {{ item.name }}
+          </h4>
           <p v-if="item.isPara" class="block text-gray-500 text-xs">
             {{ item.para }}
           </p>

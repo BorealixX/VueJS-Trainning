@@ -12,7 +12,7 @@ const props = defineProps({
   <div
     v-for="book in books"
     :key="book.id"
-    class="w-[300px] h-[470px] flex flex-col justify-center items-center bg-white shadow"
+    class="w-[300px] h-[470px] flex flex-col justify-center items-center bg-white shadow rounded-2xl"
   >
     <img
       :src="book.src"
