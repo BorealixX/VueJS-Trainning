@@ -1,7 +1,5 @@
 <template>
-  <div
-    class="relative left-1/5 bg-zinc-100 top-0 w-4/5 h-16 flex justify-center items-center animate__animated animate__fadeIn"
-  >
+  <div>
     <div class="relative flex-1">
       <input
         type="text"
@@ -16,7 +14,7 @@
       <div class="hover:bg-gray-300 p-1 rounded cursor-pointer">
         <NotificationIcon class="size-6" />
         <span
-          class="absolute top-[7px] left-3.5 text-white bg-red-500 rounded-full w-4 h-4 flex items-center justify-center text-xs"
+          class="absolute top-[7px] left-3.5 text-white bg-red-500 rounded-full w-4.5 h-4.5 flex items-center justify-center text-xs"
           >10</span
         >
       </div>
