@@ -10,13 +10,17 @@ import NavItems from "./NavItems.vue";
   <div
     class="bg-[url('./../assets/images/heroBg.jpg')] bg-cover bg-center w-full h-[478px] flex items-center"
   >
-    <div class="translate-x-[100px] translate-y-[-30px]">
+    <div
+      class="translate-x-[100px] translate-y-[-30px] animate__animated animate__fadeInLeft"
+    >
       <p class="text-red-500 py-2.5">Collection Book 2018</p>
       <h3 class="font-bold text-4xl mb-4">
         40% Discount On Books <br />
         By Susan Merill
       </h3>
-      <Button class="translate-y-8 w-[200px] py-2.5">Shop Now</Button>
+      <Button class="translate-y-8 w-[200px] py-2.5"
+        ><RouterLink to="/Shop">Shop Now</RouterLink></Button
+      >
     </div>
   </div>
   <div class="mt-8">
@@ -64,7 +68,7 @@ import NavItems from "./NavItems.vue";
         <option value="">Marcel Proust</option>
       </select>
       <Button class="w-32 h-10 p-2.5">
-        <SearchIcon class="text-white mr-1.5" />
+        <SearchIcon class="text-white mr-1.5 size-6" />
         Find Book
       </Button>
     </form>
