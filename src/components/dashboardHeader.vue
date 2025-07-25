@@ -6,12 +6,12 @@
         name=""
         id=""
         placeholder="Search your favorite Books"
-        class="bg-blue-100 w-3/5 ml-4 pl-10 py-2 rounded outline-blue-300"
+        class="bg-red-100 w-3/5 ml-4 pl-10 py-2 rounded outline-red-300"
       />
       <SearchIcon class="size-6 absolute left-5.5 top-2 text-black/60" />
     </div>
     <div class="flex gap-4 items-center mr-4 relative">
-      <div class="hover:bg-gray-300 p-1 rounded cursor-pointer">
+      <div class="hover:bg-red-100 p-1 rounded cursor-pointer">
         <NotificationIcon class="size-6" />
         <span
           class="absolute top-[7px] left-3.5 text-white bg-red-500 rounded-full w-4.5 h-4.5 flex items-center justify-center text-xs"
@@ -19,7 +19,7 @@
         >
       </div>
       <div
-        class="flex items-center gap-1 rounded hover:bg-gray-300 p-2 cursor-pointer"
+        class="flex items-center gap-1 rounded hover:bg-red-100 p-2 cursor-pointer"
       >
         <PersonIcon class="size-8 bg-zinc-200 p-1.5 rounded-full" />
         <p class="text-sm">John Doe</p>

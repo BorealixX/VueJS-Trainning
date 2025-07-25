@@ -24,18 +24,18 @@ ChartJS.register(
 );
 const chartData = {
   labels: [
-    "Janvier",
-    "Février",
+    "Jan",
+    "Feb",
     "Mars",
-    "Avril",
-    "Mai",
-    "Juin",
-    "Juillet",
-    "Août",
-    "Septembre",
-    "Octobre",
-    "Novembre",
-    "Décembre",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec",
   ],
   datasets: [
     {
@@ -124,7 +124,9 @@ const chartOptions = {
 };
 </script>
 <template>
-  <div class="p-4 h-4/5 w-2/5 absolute left-1/5">
+  <div
+    class="ml-4 mt-4 p-4 h-4/5 w-3/5 absolute left-1/5 rounded-lg bg-gray-100 shadow-lg/30"
+  >
     <Line :data="chartData" :options="chartOptions" />
   </div>
 </template>
